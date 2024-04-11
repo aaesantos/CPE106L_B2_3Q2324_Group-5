@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>310</x>
+      <y>270</y>
+      <w>210</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Student
+--
+-name: string
+-number: int
+--
++__init__()
++getName()
++setScore()
++getScore()
++getAverage()
++getHighScore()
++__eq__()
++__ge__()
++__lt__()
++__str__()
+fg=BLACK
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>310</x>
+      <y>90</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Main
+--
++name: string
++number: int
+--
++main()
+bg=BLUE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>190</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
