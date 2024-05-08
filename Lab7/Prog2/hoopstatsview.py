@@ -1,3 +1,12 @@
+'''
+**********LABORATORY 7 - POST LAB - PROGRAMMING PROBLEM 2  **********
+CPE106L B2 Group 5
+
+Members:
+Claros, Angelica
+Facal, Ma. Catherina
+Santos, Angelica Anne
+'''
 """
 File: hoopsstatsview.py
 The view for view and analyzing basketball player statistics.
